@@ -1,1 +1,0 @@
-<h1>This is text from an additional page, to be called into the app.html page!</h1>
