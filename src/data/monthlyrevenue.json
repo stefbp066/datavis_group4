@@ -1,0 +1,3362 @@
+[
+  {
+    "": 1,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 12602976
+  },
+  {
+    "": 2,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1977963
+  },
+  {
+    "": 3,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 11057497
+  },
+  {
+    "": 4,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1802417
+  },
+  {
+    "": 5,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1309863
+  },
+  {
+    "": 6,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3996481
+  },
+  {
+    "": 7,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1305858
+  },
+  {
+    "": 8,
+    "OrderMonth": 1,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4322695
+  },
+  {
+    "": 9,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11141673
+  },
+  {
+    "": 10,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1863964
+  },
+  {
+    "": 11,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14282178
+  },
+  {
+    "": 12,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1674891
+  },
+  {
+    "": 13,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1180811
+  },
+  {
+    "": 14,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3483932
+  },
+  {
+    "": 15,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1336994
+  },
+  {
+    "": 16,
+    "OrderMonth": 1,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4011052
+  },
+  {
+    "": 17,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10767373
+  },
+  {
+    "": 18,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1798299
+  },
+  {
+    "": 19,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17171634
+  },
+  {
+    "": 20,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1410135
+  },
+  {
+    "": 21,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1014417
+  },
+  {
+    "": 22,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3501087
+  },
+  {
+    "": 23,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1364011
+  },
+  {
+    "": 24,
+    "OrderMonth": 1,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3780818
+  },
+  {
+    "": 25,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11849354
+  },
+  {
+    "": 26,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2050349
+  },
+  {
+    "": 27,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17526860.8
+  },
+  {
+    "": 28,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1410592.1
+  },
+  {
+    "": 29,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1160030.6
+  },
+  {
+    "": 30,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3664347.3
+  },
+  {
+    "": 31,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1172834.6
+  },
+  {
+    "": 32,
+    "OrderMonth": 1,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4075059
+  },
+  {
+    "": 33,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10976009
+  },
+  {
+    "": 34,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1815302
+  },
+  {
+    "": 35,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16427629
+  },
+  {
+    "": 36,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1443386
+  },
+  {
+    "": 37,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1216358
+  },
+  {
+    "": 38,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3604945
+  },
+  {
+    "": 39,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1203489
+  },
+  {
+    "": 40,
+    "OrderMonth": 1,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3955581
+  },
+  {
+    "": 41,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10970877
+  },
+  {
+    "": 42,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1832005
+  },
+  {
+    "": 43,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 10009139
+  },
+  {
+    "": 44,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1438073
+  },
+  {
+    "": 45,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1127141
+  },
+  {
+    "": 46,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3508879
+  },
+  {
+    "": 47,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1128727
+  },
+  {
+    "": 48,
+    "OrderMonth": 2,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4099933
+  },
+  {
+    "": 49,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11020904
+  },
+  {
+    "": 50,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1905358
+  },
+  {
+    "": 51,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14041761
+  },
+  {
+    "": 52,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1577063
+  },
+  {
+    "": 53,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 998413
+  },
+  {
+    "": 54,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3333670
+  },
+  {
+    "": 55,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1146261
+  },
+  {
+    "": 56,
+    "OrderMonth": 2,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3934173
+  },
+  {
+    "": 57,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 9701317
+  },
+  {
+    "": 58,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1725827
+  },
+  {
+    "": 59,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15097197
+  },
+  {
+    "": 60,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1525777
+  },
+  {
+    "": 61,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 993902
+  },
+  {
+    "": 62,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3264337
+  },
+  {
+    "": 63,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1087422
+  },
+  {
+    "": 64,
+    "OrderMonth": 2,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3604445
+  },
+  {
+    "": 65,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10702476.7
+  },
+  {
+    "": 66,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1734698.9
+  },
+  {
+    "": 67,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15900730.9
+  },
+  {
+    "": 68,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1435551.4
+  },
+  {
+    "": 69,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 997519.3
+  },
+  {
+    "": 70,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3255864.4
+  },
+  {
+    "": 71,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1239529
+  },
+  {
+    "": 72,
+    "OrderMonth": 2,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3718394.4
+  },
+  {
+    "": 73,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10086819
+  },
+  {
+    "": 74,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1642413
+  },
+  {
+    "": 75,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14907939
+  },
+  {
+    "": 76,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1626298
+  },
+  {
+    "": 77,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1039501
+  },
+  {
+    "": 78,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3419628
+  },
+  {
+    "": 79,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1000302
+  },
+  {
+    "": 80,
+    "OrderMonth": 2,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3421474
+  },
+  {
+    "": 81,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 12163465
+  },
+  {
+    "": 82,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2064534
+  },
+  {
+    "": 83,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 11995303
+  },
+  {
+    "": 84,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1673233
+  },
+  {
+    "": 85,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1282106
+  },
+  {
+    "": 86,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 4037710
+  },
+  {
+    "": 87,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1243033
+  },
+  {
+    "": 88,
+    "OrderMonth": 3,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4165537
+  },
+  {
+    "": 89,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11797647
+  },
+  {
+    "": 90,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1954908
+  },
+  {
+    "": 91,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14868432
+  },
+  {
+    "": 92,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1605527
+  },
+  {
+    "": 93,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1092528
+  },
+  {
+    "": 94,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3606781
+  },
+  {
+    "": 95,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1352851
+  },
+  {
+    "": 96,
+    "OrderMonth": 3,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3908202
+  },
+  {
+    "": 97,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11163761
+  },
+  {
+    "": 98,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1932245
+  },
+  {
+    "": 99,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16475081
+  },
+  {
+    "": 100,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1517268
+  },
+  {
+    "": 101,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1141911
+  },
+  {
+    "": 102,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3736535
+  },
+  {
+    "": 103,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1209229
+  },
+  {
+    "": 104,
+    "OrderMonth": 3,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3994679
+  },
+  {
+    "": 105,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10686992.3
+  },
+  {
+    "": 106,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1966654.6
+  },
+  {
+    "": 107,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16313153
+  },
+  {
+    "": 108,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1582931.4
+  },
+  {
+    "": 109,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1081870.7
+  },
+  {
+    "": 110,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3517072
+  },
+  {
+    "": 111,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1282634.1
+  },
+  {
+    "": 112,
+    "OrderMonth": 3,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4007591.6
+  },
+  {
+    "": 113,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11512693
+  },
+  {
+    "": 114,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1873299
+  },
+  {
+    "": 115,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16716146
+  },
+  {
+    "": 116,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1748186
+  },
+  {
+    "": 117,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1128480
+  },
+  {
+    "": 118,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3591883
+  },
+  {
+    "": 119,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1220033
+  },
+  {
+    "": 120,
+    "OrderMonth": 3,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4118848
+  },
+  {
+    "": 121,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11763289
+  },
+  {
+    "": 122,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1957902
+  },
+  {
+    "": 123,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 11781474
+  },
+  {
+    "": 124,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1592881
+  },
+  {
+    "": 125,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1140414
+  },
+  {
+    "": 126,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3984498
+  },
+  {
+    "": 127,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1283305
+  },
+  {
+    "": 128,
+    "OrderMonth": 4,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4325006
+  },
+  {
+    "": 129,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11117000
+  },
+  {
+    "": 130,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1916476
+  },
+  {
+    "": 131,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15468288
+  },
+  {
+    "": 132,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1659317
+  },
+  {
+    "": 133,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 954757
+  },
+  {
+    "": 134,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3503801
+  },
+  {
+    "": 135,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1424212
+  },
+  {
+    "": 136,
+    "OrderMonth": 4,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4146503
+  },
+  {
+    "": 137,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11037597
+  },
+  {
+    "": 138,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1685814
+  },
+  {
+    "": 139,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14760200
+  },
+  {
+    "": 140,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1578056
+  },
+  {
+    "": 141,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1094669
+  },
+  {
+    "": 142,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3667304
+  },
+  {
+    "": 143,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1064178
+  },
+  {
+    "": 144,
+    "OrderMonth": 4,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3947133
+  },
+  {
+    "": 145,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10913763
+  },
+  {
+    "": 146,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1769143
+  },
+  {
+    "": 147,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15668448
+  },
+  {
+    "": 148,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1520108
+  },
+  {
+    "": 149,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1030158
+  },
+  {
+    "": 150,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3570279
+  },
+  {
+    "": 151,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1091313
+  },
+  {
+    "": 152,
+    "OrderMonth": 4,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3690219
+  },
+  {
+    "": 153,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11149358
+  },
+  {
+    "": 154,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1845854
+  },
+  {
+    "": 155,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15878567
+  },
+  {
+    "": 156,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1434466
+  },
+  {
+    "": 157,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1062747
+  },
+  {
+    "": 158,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3523891
+  },
+  {
+    "": 159,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1214608
+  },
+  {
+    "": 160,
+    "OrderMonth": 4,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3901592
+  },
+  {
+    "": 161,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11900913
+  },
+  {
+    "": 162,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2057649
+  },
+  {
+    "": 163,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 13163871
+  },
+  {
+    "": 164,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1590720
+  },
+  {
+    "": 165,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1173928
+  },
+  {
+    "": 166,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3654390
+  },
+  {
+    "": 167,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1261277
+  },
+  {
+    "": 168,
+    "OrderMonth": 5,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4136293
+  },
+  {
+    "": 169,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11243346
+  },
+  {
+    "": 170,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1916014
+  },
+  {
+    "": 171,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15884532
+  },
+  {
+    "": 172,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1451453
+  },
+  {
+    "": 173,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1141195
+  },
+  {
+    "": 174,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3701439
+  },
+  {
+    "": 175,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1282678
+  },
+  {
+    "": 176,
+    "OrderMonth": 5,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4201466
+  },
+  {
+    "": 177,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11268832
+  },
+  {
+    "": 178,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1793172
+  },
+  {
+    "": 179,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15709037
+  },
+  {
+    "": 180,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1540231
+  },
+  {
+    "": 181,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1153503
+  },
+  {
+    "": 182,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3565103
+  },
+  {
+    "": 183,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1186863
+  },
+  {
+    "": 184,
+    "OrderMonth": 5,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4103415
+  },
+  {
+    "": 185,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11384233
+  },
+  {
+    "": 186,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1871400
+  },
+  {
+    "": 187,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16247618
+  },
+  {
+    "": 188,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1491221
+  },
+  {
+    "": 189,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1057566
+  },
+  {
+    "": 190,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3444680
+  },
+  {
+    "": 191,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1212897
+  },
+  {
+    "": 192,
+    "OrderMonth": 5,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3883500
+  },
+  {
+    "": 193,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11432083
+  },
+  {
+    "": 194,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1803990
+  },
+  {
+    "": 195,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15566646
+  },
+  {
+    "": 196,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1500762
+  },
+  {
+    "": 197,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1143070
+  },
+  {
+    "": 198,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3697079
+  },
+  {
+    "": 199,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1162771
+  },
+  {
+    "": 200,
+    "OrderMonth": 5,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3976982
+  },
+  {
+    "": 201,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10980532
+  },
+  {
+    "": 202,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1949048
+  },
+  {
+    "": 203,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 12904267
+  },
+  {
+    "": 204,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1569566
+  },
+  {
+    "": 205,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1220407
+  },
+  {
+    "": 206,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3587341
+  },
+  {
+    "": 207,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1221791
+  },
+  {
+    "": 208,
+    "OrderMonth": 6,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4220368
+  },
+  {
+    "": 209,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11058559
+  },
+  {
+    "": 210,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1869835
+  },
+  {
+    "": 211,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15979355
+  },
+  {
+    "": 212,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1665178
+  },
+  {
+    "": 213,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1042371
+  },
+  {
+    "": 214,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3765993
+  },
+  {
+    "": 215,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1266229
+  },
+  {
+    "": 216,
+    "OrderMonth": 6,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3856287
+  },
+  {
+    "": 217,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10726677
+  },
+  {
+    "": 218,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1763779
+  },
+  {
+    "": 219,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14206385
+  },
+  {
+    "": 220,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1547264
+  },
+  {
+    "": 221,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1178519
+  },
+  {
+    "": 222,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3628446
+  },
+  {
+    "": 223,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1152954
+  },
+  {
+    "": 224,
+    "OrderMonth": 6,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3925961
+  },
+  {
+    "": 225,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11008746
+  },
+  {
+    "": 226,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1725110
+  },
+  {
+    "": 227,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16681991
+  },
+  {
+    "": 228,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1509504
+  },
+  {
+    "": 229,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1063937
+  },
+  {
+    "": 230,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3616887
+  },
+  {
+    "": 231,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1116759
+  },
+  {
+    "": 232,
+    "OrderMonth": 6,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3779212
+  },
+  {
+    "": 233,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11074039
+  },
+  {
+    "": 234,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1811239
+  },
+  {
+    "": 235,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14791881
+  },
+  {
+    "": 236,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1508814
+  },
+  {
+    "": 237,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1124631
+  },
+  {
+    "": 238,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3646711
+  },
+  {
+    "": 239,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1172374
+  },
+  {
+    "": 240,
+    "OrderMonth": 6,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4082462
+  },
+  {
+    "": 241,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11614713
+  },
+  {
+    "": 242,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2076590
+  },
+  {
+    "": 243,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15210899
+  },
+  {
+    "": 244,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1685285
+  },
+  {
+    "": 245,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1081180
+  },
+  {
+    "": 246,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3872258
+  },
+  {
+    "": 247,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1177116
+  },
+  {
+    "": 248,
+    "OrderMonth": 7,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4129734
+  },
+  {
+    "": 249,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11629890
+  },
+  {
+    "": 250,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1926778
+  },
+  {
+    "": 251,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17042092
+  },
+  {
+    "": 252,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1610955
+  },
+  {
+    "": 253,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1204166
+  },
+  {
+    "": 254,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3635610
+  },
+  {
+    "": 255,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1215522
+  },
+  {
+    "": 256,
+    "OrderMonth": 7,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3857836
+  },
+  {
+    "": 257,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11158866
+  },
+  {
+    "": 258,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1789727
+  },
+  {
+    "": 259,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14605600
+  },
+  {
+    "": 260,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1443704
+  },
+  {
+    "": 261,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1099520
+  },
+  {
+    "": 262,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3611981
+  },
+  {
+    "": 263,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1269734
+  },
+  {
+    "": 264,
+    "OrderMonth": 7,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3798510
+  },
+  {
+    "": 265,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10868138
+  },
+  {
+    "": 266,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2021926
+  },
+  {
+    "": 267,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17114767
+  },
+  {
+    "": 268,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1538088
+  },
+  {
+    "": 269,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1071898
+  },
+  {
+    "": 270,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3588268
+  },
+  {
+    "": 271,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1151444
+  },
+  {
+    "": 272,
+    "OrderMonth": 7,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4031901
+  },
+  {
+    "": 273,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11298990
+  },
+  {
+    "": 274,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1876670
+  },
+  {
+    "": 275,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14611756
+  },
+  {
+    "": 276,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1375588
+  },
+  {
+    "": 277,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1133025
+  },
+  {
+    "": 278,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3601354
+  },
+  {
+    "": 279,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1363789
+  },
+  {
+    "": 280,
+    "OrderMonth": 7,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4016869
+  },
+  {
+    "": 281,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11491066
+  },
+  {
+    "": 282,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1959758
+  },
+  {
+    "": 283,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14115210
+  },
+  {
+    "": 284,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1587459
+  },
+  {
+    "": 285,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1013057
+  },
+  {
+    "": 286,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3722294
+  },
+  {
+    "": 287,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1344761
+  },
+  {
+    "": 288,
+    "OrderMonth": 8,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4089338
+  },
+  {
+    "": 289,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11337997
+  },
+  {
+    "": 290,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1974270
+  },
+  {
+    "": 291,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17345466
+  },
+  {
+    "": 292,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1551913
+  },
+  {
+    "": 293,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1064025
+  },
+  {
+    "": 294,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3682341
+  },
+  {
+    "": 295,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1192338
+  },
+  {
+    "": 296,
+    "OrderMonth": 8,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3755524
+  },
+  {
+    "": 297,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11359138
+  },
+  {
+    "": 298,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1854272
+  },
+  {
+    "": 299,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16045872
+  },
+  {
+    "": 300,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1635496
+  },
+  {
+    "": 301,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1142841
+  },
+  {
+    "": 302,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3612220
+  },
+  {
+    "": 303,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1073120
+  },
+  {
+    "": 304,
+    "OrderMonth": 8,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4140087
+  },
+  {
+    "": 305,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11327839
+  },
+  {
+    "": 306,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1945627
+  },
+  {
+    "": 307,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16518930
+  },
+  {
+    "": 308,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1506263
+  },
+  {
+    "": 309,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1060816
+  },
+  {
+    "": 310,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3632677
+  },
+  {
+    "": 311,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1193278
+  },
+  {
+    "": 312,
+    "OrderMonth": 8,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3788874
+  },
+  {
+    "": 313,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11731786
+  },
+  {
+    "": 314,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2043430
+  },
+  {
+    "": 315,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15095908
+  },
+  {
+    "": 316,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1614316
+  },
+  {
+    "": 317,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1105131
+  },
+  {
+    "": 318,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3647043
+  },
+  {
+    "": 319,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1311902
+  },
+  {
+    "": 320,
+    "OrderMonth": 8,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4452785
+  },
+  {
+    "": 321,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11326549
+  },
+  {
+    "": 322,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1847479
+  },
+  {
+    "": 323,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14174336
+  },
+  {
+    "": 324,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1640790
+  },
+  {
+    "": 325,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1212052
+  },
+  {
+    "": 326,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3654098
+  },
+  {
+    "": 327,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1255831
+  },
+  {
+    "": 328,
+    "OrderMonth": 9,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4261342
+  },
+  {
+    "": 329,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11398999
+  },
+  {
+    "": 330,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2024361
+  },
+  {
+    "": 331,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16283131
+  },
+  {
+    "": 332,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1375227
+  },
+  {
+    "": 333,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1038035
+  },
+  {
+    "": 334,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3509341
+  },
+  {
+    "": 335,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1236022
+  },
+  {
+    "": 336,
+    "OrderMonth": 9,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4023055
+  },
+  {
+    "": 337,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11240057
+  },
+  {
+    "": 338,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1909755
+  },
+  {
+    "": 339,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15223310
+  },
+  {
+    "": 340,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1547410
+  },
+  {
+    "": 341,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1028912
+  },
+  {
+    "": 342,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3639163
+  },
+  {
+    "": 343,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1073965
+  },
+  {
+    "": 344,
+    "OrderMonth": 9,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4094016
+  },
+  {
+    "": 345,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10614991
+  },
+  {
+    "": 346,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1798260
+  },
+  {
+    "": 347,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15733857
+  },
+  {
+    "": 348,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1612429
+  },
+  {
+    "": 349,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1039589
+  },
+  {
+    "": 350,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3429262
+  },
+  {
+    "": 351,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1261315
+  },
+  {
+    "": 352,
+    "OrderMonth": 9,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3720184
+  },
+  {
+    "": 353,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11259283
+  },
+  {
+    "": 354,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1972042
+  },
+  {
+    "": 355,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14931970
+  },
+  {
+    "": 356,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1590249
+  },
+  {
+    "": 357,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1221821
+  },
+  {
+    "": 358,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3795218
+  },
+  {
+    "": 359,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1151783
+  },
+  {
+    "": 360,
+    "OrderMonth": 9,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3947622
+  },
+  {
+    "": 361,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 12160454
+  },
+  {
+    "": 362,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1857873
+  },
+  {
+    "": 363,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15803249
+  },
+  {
+    "": 364,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1788160
+  },
+  {
+    "": 365,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1058704
+  },
+  {
+    "": 366,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3710788
+  },
+  {
+    "": 367,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1320338
+  },
+  {
+    "": 368,
+    "OrderMonth": 10,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3906866
+  },
+  {
+    "": 369,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11475070
+  },
+  {
+    "": 370,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2080368
+  },
+  {
+    "": 371,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16570528
+  },
+  {
+    "": 372,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1545211
+  },
+  {
+    "": 373,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1156511
+  },
+  {
+    "": 374,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3610854
+  },
+  {
+    "": 375,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1270640
+  },
+  {
+    "": 376,
+    "OrderMonth": 10,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4169640
+  },
+  {
+    "": 377,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 12110621
+  },
+  {
+    "": 378,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2034965
+  },
+  {
+    "": 379,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 17217090
+  },
+  {
+    "": 380,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1561923
+  },
+  {
+    "": 381,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1090715
+  },
+  {
+    "": 382,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3625645
+  },
+  {
+    "": 383,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1148997
+  },
+  {
+    "": 384,
+    "OrderMonth": 10,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4265267
+  },
+  {
+    "": 385,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10915217
+  },
+  {
+    "": 386,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1994251
+  },
+  {
+    "": 387,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16252428
+  },
+  {
+    "": 388,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1631702
+  },
+  {
+    "": 389,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 983620
+  },
+  {
+    "": 390,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3382832
+  },
+  {
+    "": 391,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1098490
+  },
+  {
+    "": 392,
+    "OrderMonth": 10,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3943014
+  },
+  {
+    "": 393,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11988863
+  },
+  {
+    "": 394,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1870703
+  },
+  {
+    "": 395,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 13460383
+  },
+  {
+    "": 396,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1659374
+  },
+  {
+    "": 397,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1106463
+  },
+  {
+    "": 398,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3704700
+  },
+  {
+    "": 399,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1414616
+  },
+  {
+    "": 400,
+    "OrderMonth": 10,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4118057
+  },
+  {
+    "": 401,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10922427
+  },
+  {
+    "": 402,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1805270
+  },
+  {
+    "": 403,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14164940
+  },
+  {
+    "": 404,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1645095
+  },
+  {
+    "": 405,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1091880
+  },
+  {
+    "": 406,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3754692
+  },
+  {
+    "": 407,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1227397
+  },
+  {
+    "": 408,
+    "OrderMonth": 11,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3717548
+  },
+  {
+    "": 409,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11149418
+  },
+  {
+    "": 410,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1714597
+  },
+  {
+    "": 411,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16365549
+  },
+  {
+    "": 412,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1570383
+  },
+  {
+    "": 413,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1276768
+  },
+  {
+    "": 414,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3706646
+  },
+  {
+    "": 415,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1183212
+  },
+  {
+    "": 416,
+    "OrderMonth": 11,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3866655
+  },
+  {
+    "": 417,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11145076
+  },
+  {
+    "": 418,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2026837
+  },
+  {
+    "": 419,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15381654
+  },
+  {
+    "": 420,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1629588
+  },
+  {
+    "": 421,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1095366
+  },
+  {
+    "": 422,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3675951
+  },
+  {
+    "": 423,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1321368
+  },
+  {
+    "": 424,
+    "OrderMonth": 11,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3841727
+  },
+  {
+    "": 425,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10485582
+  },
+  {
+    "": 426,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1821216
+  },
+  {
+    "": 427,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 15609098
+  },
+  {
+    "": 428,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1435253
+  },
+  {
+    "": 429,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1038269
+  },
+  {
+    "": 430,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3472171
+  },
+  {
+    "": 431,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1145967
+  },
+  {
+    "": 432,
+    "OrderMonth": 11,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3910321
+  },
+  {
+    "": 433,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 12061233
+  },
+  {
+    "": 434,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2037768
+  },
+  {
+    "": 435,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 12010833
+  },
+  {
+    "": 436,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1568392
+  },
+  {
+    "": 437,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1205005
+  },
+  {
+    "": 438,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3740780
+  },
+  {
+    "": 439,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1192065
+  },
+  {
+    "": 440,
+    "OrderMonth": 11,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4095908
+  },
+  {
+    "": 441,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11755866
+  },
+  {
+    "": 442,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2022533
+  },
+  {
+    "": 443,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 14858879
+  },
+  {
+    "": 444,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "JEWELRY",
+    "Revenue": 1594412
+  },
+  {
+    "": 445,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 998640
+  },
+  {
+    "": 446,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3427123
+  },
+  {
+    "": 447,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1338697
+  },
+  {
+    "": 448,
+    "OrderMonth": 12,
+    "OrderYear": 2019,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4072918
+  },
+  {
+    "": 449,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 10921192
+  },
+  {
+    "": 450,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1829434
+  },
+  {
+    "": 451,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16558658
+  },
+  {
+    "": 452,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "JEWELRY",
+    "Revenue": 1578003
+  },
+  {
+    "": 453,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1038973
+  },
+  {
+    "": 454,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3526026
+  },
+  {
+    "": 455,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1166784
+  },
+  {
+    "": 456,
+    "OrderMonth": 12,
+    "OrderYear": 2020,
+    "Type": "TOOLS & KITS",
+    "Revenue": 3774802
+  },
+  {
+    "": 457,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11936730
+  },
+  {
+    "": 458,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1924617
+  },
+  {
+    "": 459,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16604541
+  },
+  {
+    "": 460,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "JEWELRY",
+    "Revenue": 1483391
+  },
+  {
+    "": 461,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1185814
+  },
+  {
+    "": 462,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3664827
+  },
+  {
+    "": 463,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1393285
+  },
+  {
+    "": 464,
+    "OrderMonth": 12,
+    "OrderYear": 2021,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4155375
+  },
+  {
+    "": 465,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 11058189
+  },
+  {
+    "": 466,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 1831901
+  },
+  {
+    "": 467,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 16719608
+  },
+  {
+    "": 468,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "JEWELRY",
+    "Revenue": 1552011
+  },
+  {
+    "": 469,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1233205
+  },
+  {
+    "": 470,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3951294
+  },
+  {
+    "": 471,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1230544
+  },
+  {
+    "": 472,
+    "OrderMonth": 12,
+    "OrderYear": 2022,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4215067
+  },
+  {
+    "": 473,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "ADVENTURING EQUIPMENT",
+    "Revenue": 13187860
+  },
+  {
+    "": 474,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "ANIMALS & TRANSPORTATION",
+    "Revenue": 2000680
+  },
+  {
+    "": 475,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "ARMS & ARMOUR",
+    "Revenue": 11444524
+  },
+  {
+    "": 476,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "JEWELRY",
+    "Revenue": 1698208
+  },
+  {
+    "": 477,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "MUSICAL INSTRUMENT",
+    "Revenue": 1275961
+  },
+  {
+    "": 478,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "POTIONS & SCROLLS",
+    "Revenue": 3977966
+  },
+  {
+    "": 479,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "SUMMONING DEVICE",
+    "Revenue": 1457583
+  },
+  {
+    "": 480,
+    "OrderMonth": 12,
+    "OrderYear": 2023,
+    "Type": "TOOLS & KITS",
+    "Revenue": 4441545
+  }
+]
