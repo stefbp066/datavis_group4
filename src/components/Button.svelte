@@ -3,6 +3,7 @@
 	let buttonProps = {
 	class:[$$restProps.class]
 	}
+
 </script>
 	<button on:click
 			on:mouseover
@@ -12,13 +13,14 @@
 			<slot/>
 	</button>
 
+
 <style>
 	.play-button {
         padding: 10px;
         background-color: transparent;
         border: none;
         cursor: pointer;
-        transition: transform 0.2s ease;
+        transition: transform 0.9s ease;
     }
 
     .play-button:hover {
@@ -26,7 +28,7 @@
     }
 
     .play-icon {
-        width: 24px;
-        height: 24px;
+        width: 240px;
+        height: 240px;
     }
 </style>
