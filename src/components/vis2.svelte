@@ -1,5 +1,8 @@
 <script>
     import { min, max } from 'd3';
+    import { onMount } from 'svelte';
+    import * as d3 from 'd3';
+
     
     import data_vis3 from '../data/monthlyrevenue.json';
 
@@ -44,3 +47,4 @@
 
 
 </script>
+
