@@ -91,11 +91,28 @@
     return year + "-" + month};
 
     function play_animation() {
-    for (let i = 0; i < 60; i++) {
-        setTimeout(() => {
-            slider_value = i;
-        }, i * 500); // Wait 500 iterations, then update slider_value
-    };
+        // Start animation loop
+        let i = slider_value; // Start from current slider value
+        const interval = setInterval(() => {
+        if (!isPlaying) {
+            clearInterval(interval); // Stop the animation loop if paused
+            return;
+        }
+        slider_value = i;
+        i++;
+        if (i >= 60) {
+            clearInterval(interval); // Stop the animation loop if end reached
+        }
+        }, 250); // Wait 500 milliseconds between iterations
+    }
+
+    let isPlaying = false; // Initialize the variable to control animation state
+
+    function toggleAnimation() {
+        isPlaying = !isPlaying; // Toggle the animation state
+        if (isPlaying) {
+            play_animation(); // If animation is resumed, start playing
+        }
     }
     
 </script>
@@ -109,7 +126,7 @@
     <div style="display: flex; align-items: center;"> <!-- Container for alignment -->
         <p style="margin-right: 10px;">Select which date you would like to visualize or play the animation: </p> <!-- Title -->
         <div style="display: flex; align-items: center;"> <!-- Container for line -->
-            <Button on:click={play_animation}>Play</Button>
+            <Button on:click={toggleAnimation}>{isPlaying ? 'Pause' : 'Play'}</Button>
             <p style="margin-left: 10px; margin-right: 10px"> <!-- Aligning items in line -->
                 <input style="margin-right: 10px;" type="range" min="0" max="59" step="1" bind:value={slider_value} />
             </p>    
@@ -132,8 +149,8 @@
 
 <!--The actual plot-->
 <svg class = "plot" width={map_width*2 + (between_plot_margin + margins.left + margins.right)} height={map_height + margins.top + margins.bottom}>
-      <image xlink:href="http://localhost:5173/faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {margins.left} y = {margins.top}/>
-      <image xlink:href="http://localhost:5173/faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
+      <image xlink:href="../faerun.jpg" width={map_width} height={map_height} opacity="1" x = {margins.left} y = {margins.top}/>
+      <image xlink:href="../faerun.jpg" width={map_width} height={map_height} opacity="1" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
       
        {#each datapoints_vis1 as datapoint}
         {#if datapoint.Coord_X > 1 && datapoint.year_month == mapSliderToDateString(slider_value)
