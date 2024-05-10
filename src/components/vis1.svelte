@@ -5,35 +5,22 @@
     }
 
     .custom_class:hover .circle {
-    fill-opacity: 0.8;
-    content: attr(data-tooltip); /* Set tooltip content */
-}
-        .circle:hover {
-            fill-opacity : 0.8;
-        }
+        fill-opacity: 0.8;
+        content: attr(data-tooltip); /* Set tooltip content */
+    }
 
-        .circle:hover title {
-            display: block;
-            position: absolute;
-            z-index: 1;
-            background-color: white;
-            border: 1px solid black;
-            padding: 5px;
-        }
-        
-        .outside-text {
-            position: absolute;
-            top: 0px; /* Adjust top position */
-            left: 0px; /* Adjust left position */
-        }
+    .circle:hover {
+        fill-opacity : 0.8;
+    }
 
-        svg text {
-            display: none; /* Hide all text elements by default */
-        }
-
-        svg g:hover text {
-            display: block; /* Display text elements when circle is hovered over*/
-        }
+    .circle:hover title {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        background-color: white;
+        border: 1px solid black;
+        padding: 5px;
+    }
 
 </style>
 
@@ -41,6 +28,8 @@
     import { max, min } from 'd3';
     import data_vis1 from '../data/data_vis1.json';
     
+    // hover
+
     import Button from './Button.svelte';   
 
     let datapoints_vis1 = data_vis1.map(d => {
@@ -52,9 +41,12 @@
         year_month : d.year_month.toString(),
         number_clients : Number(d.number_clients),
         Nation : d.Nation.toString(),
-        mean_revenue : Number(d.mean_revenue)
+        mean_revenue : Number(d.mean_revenue),
+        rank : Number(d.rank)
       }
     });
+
+    let max_total_nation_revenue = max(datapoints_vis1, d => d.sum_rev);
 
     //values for second slider
     let min_mean_revenue = min(datapoints_vis1, d => d.mean_revenue);
@@ -71,7 +63,7 @@
     let map_height = 1940 * rescaling_factor;
     
     let between_plot_margin = 30;
-    let margins = {top: 40, right: 40, bottom: 40, left: 40};
+    let margins = {top: 150, right: 40, bottom: 40, left: 40};
 
     let max_revenue = max(datapoints_vis1, d => d.revenue);
     let max_rev_per_client = max(datapoints_vis1, d => d.revenue/d.number_clients);
@@ -122,7 +114,7 @@
             play_animation(); // If animation is resumed, start playing
         }
     }
-    
+
     // for regional manager coloring
     import { interpolateRgb } from 'd3-interpolate';
     import { scaleOrdinal } from 'd3-scale';
@@ -144,7 +136,7 @@
         // If there are more than 35 regional managers, this will cycle through the colors
         return colorSet[uniqueManagers.indexOf(manager) % colorSet.length];
   }
-
+    
 </script>
 
 <body>
@@ -179,62 +171,59 @@
 
 <!--The actual plot-->
 <svg class = "plot" width={map_width*2 + (between_plot_margin + margins.left + margins.right)} height={map_height + margins.top + margins.bottom}>
-      <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {margins.left} y = {margins.top}/>
-      <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
-      
+    <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="0.75" x = {margins.left} y = {margins.top}/>
+    <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="0.75" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
        {#each datapoints_vis1 as datapoint}
+       <g class = 'custom_class'>
         {#if datapoint.Coord_X > 1 && datapoint.year_month == mapSliderToDateString(slider_value)
             && datapoint.mean_revenue >= slider_value_min && datapoint.mean_revenue <= slider_value_max}
-            <g class='custom_class'>
-                <circle class="circle"
-                        data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
-                        cx={datapoint.Coord_X * rescaling_factor + margins.left} 
-                        cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
-                        r={(datapoint.revenue / max_revenue) * (270 * rescaling_factor)}
-                        fill-opacity="0.6"
-                        fill={getFillColor(datapoint['Regional.Manager'])}
-                >
-                <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
-                </circle>
             
-                <circle class="circle"
-                        data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
-                        cx={(datapoint.Coord_X * rescaling_factor) + map_width + margins.left + between_plot_margin}  
-                        cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
-                        r={((datapoint.revenue / datapoint.number_clients) / max_rev_per_client) * (270 * rescaling_factor)}
-                        fill-opacity="0.6"
-                        fill={getFillColor(datapoint['Regional.Manager'])}
-                >
-                <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
-                </circle>
-            </g>
-            
+            <circle class="circle"
+            data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+            cx={datapoint.Coord_X * rescaling_factor + margins.left} 
+            cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
+            r={(datapoint.revenue / max_revenue) * (270 * rescaling_factor)}
+            fill-opacity="0.6"
+            fill={getFillColor(datapoint['Regional.Manager'])}
+            >
+            <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+            </circle>
+
+            <circle class="circle"
+            data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+            cx={(datapoint.Coord_X * rescaling_factor) + map_width + margins.left + between_plot_margin}  
+            cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
+            r={((datapoint.revenue / datapoint.number_clients) / max_rev_per_client) * (270 * rescaling_factor)}
+            fill-opacity="0.6"
+            fill={getFillColor(datapoint['Regional.Manager'])}
+            >
+            <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+            </circle>
+            <!--<text class = "outside-text" x="50" y="50">{datapoint.Nation}</text>-->
+             
         {/if}
+        
+        {#if datapoint.rank <= 5 && datapoint.year_month ==  '2019-01'}
+            <circle class="circle" 
+            cx= {margins.left + between_plot_margin + map_width *2 + (datapoint.rank-1)*-170 -(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)} 
+            cy={margins.top/2} 
+            r = {(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)} 
+            fill={getFillColor(datapoint['Regional.Manager'])}
+            fill-opacity = "0.6"
+            >
+            <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)}; &#013 Mean Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+            </circle>
+            <text x ={margins.left + between_plot_margin + map_width *2 + (datapoint.rank-1)*-170 -(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)}
+            y={margins.top/2 + 5}
+            style="font-size: 20px;"
+            text-anchor="middle"
+            >{datapoint.Nation}</text>
+        {/if}
+
+        </g>
         {/each}
+        
+        <text x={margins.left + 450} y={20} style="font-size: 25px;">Top 5 Nations by Total Revenue</text>
   </svg>
 
-  <!--
-  <svg class = "plot" width={map_width} height={map_height}>
-     <image xlink:href="http://localhost:5173/faerun_without_name.jpg" width={map_width} height={map_height} opacity="1"/>
-  </svg>
-    
-  
-    <image xlink:href="http://localhost:5173/faerun_without_name.jpg" width={map_width} height={map_height} opacity="1"/>
-        {#each datapoints_vis1 as datapoint}
-        {#if datapoint.year_month == mapSliderToDateString(slider_value)}
-            <g>
-            <circle class="circle"
-            data-tooltip="test"
-            cx={datapoint.Coord_X * rescaling_factor} 
-            cy={datapoint.Coord_Y * rescaling_factor} 
-            r= {((datapoint.revenue/datapoint.number_clients)/max_rev_per_client) * (270 * rescaling_factor)}
-            fill-opacity = "0.6"
-            fill = #4D4D4D 
-            />
-            <text class = "outside-text" x="50" y="50">{datapoint.Nation}</text>
-            </g>
-        {/if}
-        {/each}
-  </svg>
-    -->
 </body>
