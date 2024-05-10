@@ -42,18 +42,19 @@
         number_clients : Number(d.number_clients),
         Nation : d.Nation.toString(),
         mean_revenue : Number(d.mean_revenue),
-        rank : Number(d.rank)
+        rank : Number(d.rank),
+        sum_rev : Number(d.sum_rev)
       }
     });
 
     let max_total_nation_revenue = max(datapoints_vis1, d => d.sum_rev);
 
     //values for second slider
-    let min_mean_revenue = min(datapoints_vis1, d => d.mean_revenue);
-    let max_mean_revenue = max(datapoints_vis1, d => d.mean_revenue);
+    let min_total_revenue = min(datapoints_vis1, d => d.sum_rev);
+    let max_total_revenue = max(datapoints_vis1, d => d.sum_rev);
 
-    let slider_value_min = min_mean_revenue;
-    let slider_value_max = max_mean_revenue;
+    let slider_value_min = min_total_revenue;
+    let slider_value_max = max_total_revenue;
 
     // end of vals for second slider
 
@@ -141,10 +142,10 @@
 
 <body>
 
-<h1 style="position: absolute; top: 5px; left: 10px;"> Visualization 1 </h1>
+<h1 style="position: absolute; top: 7%; left: 13%;"> Visualization 1 </h1>
 
 <!--<input type="range" min="201901" max="202312" bind:value={slider_value} /><br/>-->
-<div style="position: absolute; top: 80%; left: 04%; white-space: nowrap">
+<div style="position: absolute; top: 80%; left: 13%; white-space: nowrap">
     <div style="display: flex; align-items: center;"> <!-- Container for alignment -->
         <p style="margin-right: 10px;">Select which date you would like to visualize or play the animation: </p> <!-- Title -->
         <div style="display: flex; align-items: center;"> <!-- Container for line -->
@@ -157,47 +158,49 @@
     </div>
 </div>
 
-<div style = 'position: absolute; top: 85%; left: 04%; white-space: nowrap'>
+<div style = 'position: absolute; top: 85%; left: 13%; white-space: nowrap'>
     <div style="display: flex; align-items: center;">
-        <p>Select specific nations based on their mean revenue, choose a minimum and maximum range in the sliders: </p>
-        <input style="margin-left: 20px;" type="range" min={min_mean_revenue - 100} max={max_mean_revenue + 100} step="100" bind:value={slider_value_min} />
-        <input style="margin-right: 20px;" type="range" min={min_mean_revenue - 100} max={max_mean_revenue + 100} step="100" bind:value={slider_value_max} />
+        <p>Select specific nations based on their total revenue, choose a minimum and maximum range in the sliders: </p>
+        <input style="margin-left: 20px;" type="range" min={min_total_revenue - 100} max={max_total_revenue + 100} step="100" bind:value={slider_value_min} />
+        <input style="margin-right: 20px;" type="range" min={min_total_revenue - 100} max={max_total_revenue + 100} step="100" bind:value={slider_value_max} />
     </div>
     <div style="display: flex">
         <p style = "display: flex; margin-left: 720px; margin-top: -10px">Selected range: {Math.round(slider_value_min)} - {Math.round(slider_value_max)} Copper Pieces (CP)</p>
-        <p style = "display: flex; margin-left: -342px; margin-top: 20px">Number of nations in range: {datapoints_vis1.filter(d => d.year_month == '2019-01' && slider_value_min && d.mean_revenue >= slider_value_min && d.mean_revenue <= slider_value_max).length}</p>
+        <p style = "display: flex; margin-left: -342px; margin-top: 20px">Number of nations in range: {datapoints_vis1.filter(d => d.year_month == '2019-01' && slider_value_min && d.sum_rev >= slider_value_min && d.sum_rev <= slider_value_max).length}</p>
     </div>
     </div>
 
 <!--The actual plot-->
 <svg class = "plot" width={map_width*2 + (between_plot_margin + margins.left + margins.right)} height={map_height + margins.top + margins.bottom}>
+    <text x = {margins.left + map_width/2} y = {margins.top - 10} style="font-size: 30px;" text-anchor="middle"> Revenue </text>
+    <text x = {margins.left + map_width * 1.5} y = {margins.top - 10} style="font-size: 30px;" text-anchor="middle"> Revenue per client</text>
     <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="0.75" x = {margins.left} y = {margins.top}/>
     <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="0.75" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
        {#each datapoints_vis1 as datapoint}
        <g class = 'custom_class'>
         {#if datapoint.Coord_X > 1 && datapoint.year_month == mapSliderToDateString(slider_value)
-            && datapoint.mean_revenue >= slider_value_min && datapoint.mean_revenue <= slider_value_max}
+            && datapoint.sum_rev >= slider_value_min && datapoint.sum_rev <= slider_value_max}
             
             <circle class="circle"
-            data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+            data-tooltip="{datapoint.Nation}: Total revenue: {datapoint.sum_rev}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
             cx={datapoint.Coord_X * rescaling_factor + margins.left} 
             cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
             r={(datapoint.revenue / max_revenue) * (270 * rescaling_factor)}
             fill-opacity="0.6"
             fill={getFillColor(datapoint['Regional.Manager'])}
             >
-            <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+            <title>Nation: {datapoint.Nation} &#013;Total revenue: {datapoint.sum_rev.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
             </circle>
 
             <circle class="circle"
-            data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+            data-tooltip="{datapoint.Nation}: Total revenue: {datapoint.sum_rev}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
             cx={(datapoint.Coord_X * rescaling_factor) + map_width + margins.left + between_plot_margin}  
             cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
             r={((datapoint.revenue / datapoint.number_clients) / max_rev_per_client) * (270 * rescaling_factor)}
             fill-opacity="0.6"
             fill={getFillColor(datapoint['Regional.Manager'])}
             >
-            <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+            <title>Nation: {datapoint.Nation} &#013;Total revenue: {datapoint.sum_rev.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
             </circle>
             <!--<text class = "outside-text" x="50" y="50">{datapoint.Nation}</text>-->
              
@@ -206,7 +209,7 @@
         {#if datapoint.rank <= 5 && datapoint.year_month ==  '2019-01'}
             <circle class="circle" 
             cx= {margins.left + between_plot_margin + map_width *2 + (datapoint.rank-1)*-170 -(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)} 
-            cy={margins.top/2} 
+            cy={margins.top/2 -10} 
             r = {(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)} 
             fill={getFillColor(datapoint['Regional.Manager'])}
             fill-opacity = "0.6"
@@ -214,7 +217,7 @@
             <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)}; &#013 Mean Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
             </circle>
             <text x ={margins.left + between_plot_margin + map_width *2 + (datapoint.rank-1)*-170 -(datapoint.sum_rev/max_total_nation_revenue) * (270 * rescaling_factor)}
-            y={margins.top/2 + 5}
+            y={margins.top/2 -5}
             style="font-size: 20px;"
             text-anchor="middle"
             >{datapoint.Nation}</text>
