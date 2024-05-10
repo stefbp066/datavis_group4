@@ -10,7 +10,15 @@
 }
         .circle:hover {
             fill-opacity : 0.8;
-            content: attr(data-tooltip); /* Set tooltip content */
+        }
+
+        .circle:hover title {
+            display: block;
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+            border: 1px solid black;
+            padding: 5px;
         }
         
         .outside-text {
@@ -115,6 +123,28 @@
         }
     }
     
+    // for regional manager coloring
+    import { interpolateRgb } from 'd3-interpolate';
+    import { scaleOrdinal } from 'd3-scale';
+
+    // Extract unique regional managers
+    const uniqueManagers = [...new Set(datapoints_vis1.map(d => d['Regional.Manager']))];
+
+    // Define a color scale mapping each regional manager to a color
+    const colorSet = ['#1f77b4', '#aec7e8', '#ff7f0e', '#ffbb78', '#2ca02c', '#98df8a','#d62728',
+            '#ff9896','#9467bd','#c5b0d5','#8c564b','#c49c94','#e377c2','#f7b6d2',
+            '#7f7f7f','#c7c7c7','#bcbd22','#dbdb8d','#17becf','#9edae5','#393b79',
+            '#5254a3','#6b6ecf','#9c9ede','#637939','#8ca252','#b5cf6b','#cedb9c',
+            '#8c6d31','#bd9e39','#e7ba52','#e7cb94','#843c39','#ad494a','#d6616b'
+        ]; // Add more colors as needed
+
+    // Function to get the fill color based on regional manager
+    function getFillColor(manager) {
+        // Map each regional manager to a specific color from the color set
+        // If there are more than 35 regional managers, this will cycle through the colors
+        return colorSet[uniqueManagers.indexOf(manager) % colorSet.length];
+  }
+
 </script>
 
 <body>
@@ -149,33 +179,34 @@
 
 <!--The actual plot-->
 <svg class = "plot" width={map_width*2 + (between_plot_margin + margins.left + margins.right)} height={map_height + margins.top + margins.bottom}>
-      <image xlink:href="../faerun.jpg" width={map_width} height={map_height} opacity="1" x = {margins.left} y = {margins.top}/>
-      <image xlink:href="../faerun.jpg" width={map_width} height={map_height} opacity="1" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
+      <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {margins.left} y = {margins.top}/>
+      <image xlink:href="../faerun_without_name.jpg" width={map_width} height={map_height} opacity="1" x = {map_width + (between_plot_margin + margins.left)} y = {margins.top}/>
       
        {#each datapoints_vis1 as datapoint}
         {#if datapoint.Coord_X > 1 && datapoint.year_month == mapSliderToDateString(slider_value)
             && datapoint.mean_revenue >= slider_value_min && datapoint.mean_revenue <= slider_value_max}
-            <g class = 'custom_class'>
-            <circle class="circle"
-            data-tooltip="test"
-            cx={datapoint.Coord_X * rescaling_factor + margins.left} 
-            cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
-            r = {(datapoint.revenue/max_revenue) * (270 * rescaling_factor)}
-            fill-opacity = "0.6"
-            fill = #4D4D4D 
-            />
-
-            <text class = "outside-text" x="{margins.left}" y="30"> Selected nation: {datapoint.Nation} </text>
-
-            <circle class="circle"
-            data-tooltip="test"
-            cx={(datapoint.Coord_X * rescaling_factor) + map_width + margins.left + between_plot_margin}  
-            cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
-            r = {((datapoint.revenue/datapoint.number_clients)/max_rev_per_client) * (270 * rescaling_factor)}
-            fill-opacity = "0.6"
-            fill = #4D4D4D 
-            />
-            <!--<text class = "outside-text" x="50" y="50">{datapoint.Nation}</text>-->
+            <g class='custom_class'>
+                <circle class="circle"
+                        data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+                        cx={datapoint.Coord_X * rescaling_factor + margins.left} 
+                        cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
+                        r={(datapoint.revenue / max_revenue) * (270 * rescaling_factor)}
+                        fill-opacity="0.6"
+                        fill={getFillColor(datapoint['Regional.Manager'])}
+                >
+                <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+                </circle>
+            
+                <circle class="circle"
+                        data-tooltip="{datapoint.Nation}: Mean Revenue: {datapoint.mean_revenue}, Revenue per Client: {datapoint.mean_revenue / datapoint.mean_number_clients}"
+                        cx={(datapoint.Coord_X * rescaling_factor) + map_width + margins.left + between_plot_margin}  
+                        cy={datapoint.Coord_Y * rescaling_factor + margins.top} 
+                        r={((datapoint.revenue / datapoint.number_clients) / max_rev_per_client) * (270 * rescaling_factor)}
+                        fill-opacity="0.6"
+                        fill={getFillColor(datapoint['Regional.Manager'])}
+                >
+                <title>Nation: {datapoint.Nation} &#013;Mean Revenue: {datapoint.mean_revenue.toFixed(0)} &#013;Revenue per Client: {(datapoint.mean_revenue / datapoint.mean_number_clients).toFixed(0)} &#013;Regional Manager: {datapoint['Regional.Manager']}</title>
+                </circle>
             </g>
             
         {/if}
